@@ -1,0 +1,5 @@
+Premièrement, installer sshpass :
+sudo apt-get install sshpass
+
+Ensuite, post-build:
+sshpass -p "maker" scp drive-test robot@172.24.147.35:drive-test

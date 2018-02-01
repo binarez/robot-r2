@@ -1,0 +1,15 @@
+IP robot : 192.168.1.120
+Git Robot URL : robot@192.168.1.120:demorobot
+login: robot
+passwd: maker
+
+LISTE DE TRAVAIL
+----------------
+X Avancer et reculer
+X Wifi
+X Tourner gauche et droite (interface degrés)
+X Détecter la couleur et chercheur la couleur noir (de façon stupide, mode MODE_COL_COLOR basique)
+X Afficher texte dans LCD
+Ajuster la trajectoire du robot en lisant la couleur RAW et en minimisant sa valeur (tendre vers zéro)
+Faire sortir de print dans le terminal
+Lire les boutons (exemple: du robot pour permettre la calibration au début)

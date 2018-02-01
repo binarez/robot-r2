@@ -1,0 +1,9 @@
+{
+    "files": [
+        "ev3dev.h",
+        "ev3dev.cpp",
+        "demos/ev3dev-lang-test.cpp",
+        "demos/ev3dev-lang-demo.cpp"
+    ],
+    "templateDir": "templates"
+}

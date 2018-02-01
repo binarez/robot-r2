@@ -1,0 +1,18 @@
+dist: trusty
+language: cpp
+compiler:
+- gcc
+
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - gcc-5
+    - g++-5
+
+script:
+- mkdir -p build && cd build
+- CC=gcc-5 CXX=g++-5 cmake ..
+- make
+- ctest --output-on-failure
